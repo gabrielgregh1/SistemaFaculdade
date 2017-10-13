@@ -26,7 +26,7 @@ public abstract class Aluno {
 
     @Override
     public String toString() {
-        return "Nome: " + nome + "\nRA: " + ra;
+        return "\t\tNome: " + nome + "\n\t\tRA: " + ra;
     }
     
     

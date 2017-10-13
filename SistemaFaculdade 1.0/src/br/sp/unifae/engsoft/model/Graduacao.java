@@ -19,7 +19,7 @@ public class Graduacao extends Aluno{
     @Override
     public String toString(){
         String resultado = super.toString();
-        return resultado+="\nSerie: "+serie;
+        return resultado+="\n\t\tSerie: "+serie;
     }
     
     

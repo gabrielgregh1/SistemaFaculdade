@@ -37,11 +37,11 @@ public class Faculdade {
     @Override
     public String toString() {
        StringBuilder info = new StringBuilder();
-       String resultadoFaculdade = "\n"+nome+"\n\n";
+       String resultadoFaculdade = "\n"+nome+"\n";
        String resultadoCurso="";
        
        for(int i = 0 ; i<qtdCursos ; i++){
-           resultadoCurso=""+info.append(cursos[i].toString()).append("\n");
+           resultadoCurso=""+info.append("\t").append(cursos[i].toString()).append("\n");
            
        }
        

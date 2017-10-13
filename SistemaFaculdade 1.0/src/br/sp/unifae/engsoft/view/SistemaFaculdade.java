@@ -1,7 +1,6 @@
 
 package br.sp.unifae.engsoft.view;
 
-import br.sp.unifae.engsoft.model.Aluno;
 import br.sp.unifae.engsoft.model.Curso;
 import br.sp.unifae.engsoft.model.Faculdade;
 import br.sp.unifae.engsoft.model.Graduacao;
@@ -38,7 +37,7 @@ public class SistemaFaculdade {
                     cadastrarCursoEmFaculdade();
                     break;
                 case 3:
-                    cadastrarAlunoGraduacaoEmCuso();
+                    cadastrarAlunoGraduacaoEmCurso();
                     break;
                 case 4:
                     exibirDados();
@@ -80,7 +79,7 @@ public class SistemaFaculdade {
         
     }
     
-    private static void cadastrarAlunoGraduacaoEmCuso(){
+    private static void cadastrarAlunoGraduacaoEmCurso(){
         System.out.println("Informe o nome do Aluno: ");
         String nome = leitor.next();
         
